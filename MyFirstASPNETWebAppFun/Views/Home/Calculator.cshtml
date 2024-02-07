@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Services Calculator";
+}
+<div class="text-center">
+    <h1 class="display-4">@ViewData["Title"]</h1>
+    <br />
+    <p class="italic">Find out the cost of my services according to your needs!</p>
+</div>
+
+<div class="calculator">
+    <br />
+    <div>
+        <label>The number of hours you need me:</label><br />
+        <input type="number" id="hours" min="1" required />
+        <br /><br />
+    </div>
+
+    <div>
+        <label>How much I charge per hour:</label><br />
+        <input type="text" id="hourly-rate" value="$75" readonly>
+        <br /><br />
+    </div>
+
+    <div>
+        <button id="btnCalculate">Calculate Total</button>
+    </div>
+
+    <div>
+        <label for="total">Total:</label>
+        <output id="total"></output>
+    </div>
+</div>

@@ -1,0 +1,58 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('~/fonts/Poppins-Regular.ttf') format('truetype'),
+        url('~/fonts/Poppins-Italic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Merriweather';
+    src: url('~/fonts/Merriweather-Regular.ttf') format('truetype');
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.italic {
+    font-style: italic;
+}
+h1 {
+    font-family: Merriweather, serif;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image-wrapper {
+    display: inline-block;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.calculator {
+    text-align: center;
+}
+
+#total {
+    margin-top: 10px;
+}
