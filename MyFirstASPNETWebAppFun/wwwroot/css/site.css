@@ -8,6 +8,7 @@ html {
   }
 }
 
+/*import fonts*/
 @font-face {
     font-family: 'Poppins';
     src: url('~/fonts/Poppins-Regular.ttf') format('truetype'),
@@ -39,6 +40,8 @@ h1 {
     font-family: Merriweather, serif;
 }
 
+
+/*images*/
 .image-container {
     text-align: center;
 }
@@ -55,4 +58,14 @@ h1 {
 
 #total {
     margin-top: 10px;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    position: absolute; 
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
 }
